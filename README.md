@@ -7,29 +7,29 @@
 😩Have you encountered any of the following troubles?😩     
 1️⃣. Creating countless scripts and repeatedly writing code with a structure similar to the following:     
 ~~~
----> [SerializeField] private Button button;        
----> [SerializeField] private Slider slider;        
----> [SerializeField] private InputField inputField;        
----> [SerializeField] private Toggle toggle;        
----> [SerializeField] private Dropdown dropdown;        
+[SerializeField] private Button button;        
+[SerializeField] private Slider slider;        
+[SerializeField] private InputField inputField;        
+[SerializeField] private Toggle toggle;        
+[SerializeField] private Dropdown dropdown;        
 ... ...     
----> button.onClick.AddListener(OnButtonClicked);       
----> slider.onValueChanged.AddListener(OnSliderValueChanged);
----> inputField.onValueChanged.AddListener(OnInputFieldValueChanged);
----> toggle.onValueChanged.AddListener(OnToggleValueChanged);
----> dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
+button.onClick.AddListener(OnButtonClicked);       
+slider.onValueChanged.AddListener(OnSliderValueChanged);
+inputField.onValueChanged.AddListener(OnInputFieldValueChanged);
+toggle.onValueChanged.AddListener(OnToggleValueChanged);
+dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
 ... ...
----> button.onClick.RemoveListener(OnButtonClicked);
----> slider.onValueChanged.RemoveListener(OnSliderValueChanged);
----> inputField.onValueChanged.RemoveListener(OnInputFieldValueChanged);
----> toggle.onValueChanged.RemoveListener(OnToggleValueChanged);
----> dropdown.onValueChanged.RemoveListener(OnDropdownValueChanged);
+button.onClick.RemoveListener(OnButtonClicked);
+slider.onValueChanged.RemoveListener(OnSliderValueChanged);
+inputField.onValueChanged.RemoveListener(OnInputFieldValueChanged);
+toggle.onValueChanged.RemoveListener(OnToggleValueChanged);
+dropdown.onValueChanged.RemoveListener(OnDropdownValueChanged);
 ... ...
----> private void OnButtonClicked() { }
----> private void OnSliderValueChanged(float val) { }
----> private void OnInputFieldValueChanged(string val) { }
----> private void OnToggleValueChanged(bool val) { }
----> private void OnDropdownValueChanged(int val) { }
+private void OnButtonClicked() { }
+private void OnSliderValueChanged(float val) { }
+private void OnInputFieldValueChanged(string val) { }
+private void OnToggleValueChanged(bool val) { }
+private void OnDropdownValueChanged(int val) { }
 ~~~
 2️⃣. In the Hierarchy, dragging and assigning components one by one to the corresponding fields in the script.     
 
