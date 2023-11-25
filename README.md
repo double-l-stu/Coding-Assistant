@@ -1,4 +1,4 @@
-# 👉[Coding-Assistant](https://assetstore.unity.com/packages/slug/267341?aid=1011lrgAB)
+# 👉[Coding-Assistant](https://prf.hn/click/camref:1011lrgAB/destination:https://assetstore.unity.com/packages/tools/utilities/coding-assistant-one-click-script-generation-fields-binding-267341)
 🔥 One-click generation of scripts, component fields, and event listener functions, with automatic handling of event listening, removal, component field binding, and referencing.      
 🤞Allows developers to focus more on implementing business logic without spending excessive time writing repetitive, standardized code. Eliminates the need for manual component field binding and referencing, saving valuable time⌚ and effort, resulting in improved development efficiency💨.
 
